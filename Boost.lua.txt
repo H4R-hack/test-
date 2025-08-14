@@ -312,8 +312,9 @@ local oldVerifyKey = verifyKey
 verifyKey = function(key)
     local result = oldVerifyKey(key)
     if result == true then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R-hack/HA77---Blox-Fruit-V1.9---/refs/heads/main/ScriptEnglish.txt,true"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R-hack/HA77---Blox-Fruit-V1.9---/refs/heads/main/ScriptEnglish.txt",true"))()
     end
     return result
 end
+
 -------------------------------------------------------------------------------
